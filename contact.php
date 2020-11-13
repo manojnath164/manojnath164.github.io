@@ -13,8 +13,6 @@ $first_name     = $_POST['first_name'];
 $last_name     = $_POST['last_name'];
 $email    = $_POST['email'];
 $phone   = $_POST['phone'];
-$select_price   = $_POST['select_price'];
-$select_service   = $_POST['select_service'];
 $subject  = $_POST['subject'];
 $comments = $_POST['comments'];
 $verify   = $_POST['verify'];
@@ -45,7 +43,7 @@ if(get_magic_quotes_gpc()) {
 // Example $address = "joe.doe@yourdomain.com";
 
 //$address = "example@themeforest.net";
-$address = "manojnath382@gmai.com.com";
+$address = "manojnath382@gmail.com";
 
 
 // Configuration option.
