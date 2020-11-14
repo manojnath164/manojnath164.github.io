@@ -1,9 +1,9 @@
 <?php
 //Variable Setting
-$name  = $_REQUEST['name'];
-$lastname  = $_REQUEST['lastname'];
-$email = $_REQUEST['email'];
-$message = $_REQUEST['message'];
+$name  = $_POST['name'];
+$lastname  = $_POST['lastname'];
+$email = $_POST['email'];
+$message = $_POST['message'];
 
 #check input fields
 if (empty($name) || empty($lastname) || empty($email) || empty($message))
